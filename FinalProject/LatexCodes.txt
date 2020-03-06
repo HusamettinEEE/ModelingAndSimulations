@@ -1,0 +1,45 @@
+$$
+\begin{array}{cc}{\left(x_{i}, y_{i}\right),} & {i=1,2, \ldots, n} \\ {x_{i} \in \mathbb{R}^{p}} & {y_{i} \in\{-1,+1\}}\end{array}
+$$
+
+\( \left\{X \in \mathbb{R}^{p}: \beta^{\top} X+\beta_{0}=0, \beta \in \mathbb{R}^{p}, \beta_{0} \in \mathbb{R}\right\} \)
+
+
+
+$$
+\begin{aligned} y_{i}=1 & \longrightarrow \beta^{\top} x_{i}+\beta_{0}-1 \geq 0 \\ y_{i}=-1 & \longrightarrow \beta^{\top} x_{i}+\beta_{0}+1 \leq 0 \\ i-\cdots-\cdots & 1^{-} 1^{-}-\cdots^{-}-\cdots^{-1} \\ & y_{i}\left(\beta^{\top} x_{i}+\beta_{0}\right) \geq 1 \end{aligned}
+$$
+
+\( \beta^{\top} X+\beta_{0}-\Delta=0 \quad \quad \beta^{\top} X+\beta_{0}+\Delta=0 \)
+
+$$
+\|\bar{x}\| \cos \theta=\frac{\beta^{\top} \bar{x}}{\|\beta\|}=\frac{1-\beta_{0}}{\|\beta\|}
+$$
+
+
+$$
+\|\tilde{x}\| \cos \theta=\frac{\beta^{\top} \tilde{x}}{\|\beta\|}=\frac{-1-\beta_{0}}{\|\beta\|}
+$$
+
+$$
+\frac{1-\beta_{0}}{\|\beta\|}-\frac{-1-\beta_{0}}{\|\beta\|}=\frac{2}{\|\beta\|}
+$$
+
+$$
+\begin{array}{l}{\frac{2}{\|\beta\|}} \\ {y_{i}\left(\beta^{\top} x_{i}+\beta_{0}\right) \geq 1, \quad i=1, \ldots, n}\end{array}
+$$
+
+\( \frac{1}{2} \beta^{\top} \beta \)
+\( y_{i}\left(\beta^{\top} x_{i}+\beta_{0}\right) \geq 1, \quad i=1, \ldots, n \)
+
+\( \begin{array}{ll}{y_{i}\left(\beta^{\top} x_{i}+\beta_{0}\right) \geq 1-\varepsilon,} & {\varepsilon=0} \\ {y_{i}\left(\beta^{\top} x_{i}+\beta_{0}\right) \geq 1-\varepsilon,} & {0<\varepsilon<1} \\ {y_{i}\left(\beta^{\top} x_{i}+\beta_{0}\right) \geq 1-\varepsilon,} & {\varepsilon \geq 1}\end{array} \)
+
+
+\( \frac{1}{2} \beta^{\top} \beta+c \sum_{i=1}^{n} \varepsilon_{i}^{d} \)
+\( y_{i}\left(\beta^{\top} x_{i}+\beta_{0}\right) \geq 1-\varepsilon_{i}, \quad i=1, \ldots, n \)
+\( \varepsilon_{i} \geq 0, \quad i=1, \ldots, n \)
+
+
+$$
+ {\mathcal{L}\left(\beta, \beta_{0} ; \alpha\right)=\frac{1}{2} \beta^{\top} \beta-\sum_{i \in A} \alpha_{i}\left(y_{i}\left(\beta^{\top} x_{i}+\beta_{0}\right)-1\right)} 
+$$
